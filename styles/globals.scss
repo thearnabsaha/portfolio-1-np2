@@ -12,7 +12,6 @@
 }
 //?################################## Utitlity Classes #######################################
 .container{
-  // margin: auto;
   margin-left: 5rem;
 }
 //?################################## Intro Design #######################################
@@ -57,13 +56,15 @@
         }
       }
       .right{
-        width: 80%;
+        width: 100%;
+        height: 100%;
         background-color: $colorPrimary;
         clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+        position: relative;
         .introImg{
           width: 100%;
-          height: 100%;
-          object-fit: cover;
+          // height: 100%;
+          // object-fit: cover;
           position: absolute;
         }
       }
@@ -71,7 +72,6 @@
   }
 }
 @keyframes move{
-  // 0%{transform: translateY(-5rem);}
   25%{transform: translateY(-5rem);}
   50%{transform: translateY(-10rem);}
   75%{transform: translateY(-15rem);}

@@ -1,4 +1,5 @@
 import me from '../../public/img/mee.png'
+import Image from 'next/image';
 const Intro = () => {
     return (
         <>
@@ -20,8 +21,9 @@ const Intro = () => {
                             <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
                         </div>
                         <div className="right">
-                            {/* <h1>right</h1> */}
-                            <img src={me} className='introImg'/>
+                            <div className="introImg">
+                                <Image src={me} width="800" height="800" objectFit='cover'/>
+                            </div>
                         </div>
                     </div>
                 </div>
