@@ -1,3 +1,4 @@
+import me from '../../public/img/mee.png'
 const Intro = () => {
     return (
         <>
@@ -8,13 +9,19 @@ const Intro = () => {
                             <h3>Hello, My name is</h3>
                             <h1>Arnab Saha</h1>
                             <div className="title">
-                                <div className="titleItem">Web Developer</div>
-                                <div className="titleItem">Blockchain Developer</div>
-                                <div className="titleItem">Forntend Developer</div>
-                                <div className="titleItem">Backend Developer</div>
-                                <div className="titleItem">UI/UX Designer</div>
+                                <div className="titleItems">
+                                    <div className="titleItem">Web Developer</div>
+                                    <div className="titleItem">Blockchain Developer</div>
+                                    <div className="titleItem">Forntend Developer</div>
+                                    <div className="titleItem">Backend Developer</div>
+                                    <div className="titleItem">UI/UX Designer</div>
+                                </div>
                             </div>
                             <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
+                        </div>
+                        <div className="right">
+                            {/* <h1>right</h1> */}
+                            <img src={me} className='introImg'/>
                         </div>
                     </div>
                 </div>
