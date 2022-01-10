@@ -1,5 +1,7 @@
 import Head from 'next/head';
+import About from './components/About';
 import Intro from './components/Intro'
+import Portfolio from './components/Portfolio';
 const index = () => {
   return (
     <>
@@ -7,6 +9,8 @@ const index = () => {
         <title>TAS Portfolio-1</title>
       </Head>
       <Intro/>
+      <About/>
+      <Portfolio/>
     </>
   );
 }
