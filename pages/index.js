@@ -2,7 +2,6 @@ import Head from 'next/head';
 import About from './components/About';
 import Intro from './components/Intro'
 import Portfolio from './components/Portfolio';
-import moduleName from '../public/portimg/1.png';
 const index = () => {
   return (
     <>
