@@ -6,18 +6,19 @@ const Contact = () => {
     return (
         <>
             <div className="contact">
+                <div className="green"></div>
                 <div className="left">
                     <h1>Let's discuss your project</h1>
                     <div className="address">
-                        <Image src={phone} height={`20`} width={`20`} objectFit='cover'/>
+                        <Image src={phone} height={`30`} width={`30`} objectFit='cover'/>
                         <p>91-6296818891</p>
                     </div>
                     <div className="address">
-                        <Image src={email} height={`20`} width={`20`} objectFit='cover'/>
+                        <Image src={email} height={`30`} width={`30`} objectFit='cover'/>
                         <p>thearnabsaha201@gamil.com</p>
                     </div>
                     <div className="address">
-                        <Image src={address} height={`20`} width={`20`} objectFit='cover'/>
+                        <Image src={address} height={`30`} width={`30`} objectFit='cover'/>
                         <p>245 King Street, Touterie Victoria 8520 Australia</p>
                     </div>
                 </div>
