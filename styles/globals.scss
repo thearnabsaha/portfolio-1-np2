@@ -93,10 +93,7 @@
           border-radius: 4rem;
         }
         .aboutImg{
-          border-radius: 4rem;
-          top: 30px !important;
-          left: 30px !important;
-
+          border-radius: 4rem !important;
         }
       }
       .right{
@@ -228,8 +225,9 @@
 .contact{
   display: flex;
   .left{
-    // justify-content: center;
-    // align-items: center;
+    padding-bottom: 10rem;
+    flex-direction: column;
+    padding-top: 5rem;
     h1{
       font-size: 6rem;
       width: 70%;
@@ -248,9 +246,10 @@
   .green{
     width: 20px;
     background-color: $colorPrimary;
-    margin-right: 3rem;
+    margin-right: 4rem;
   }
   .right{
+    padding-top: 5rem;
     p{
       font-size: 1.5rem;
       font-weight: 300;
@@ -292,9 +291,10 @@
         border: none;
         border-radius: .3rem;
         &:hover{
-          background-color: $colorPrimary;
+          background-color: $colorPrimaryDark;
         }
       }
     }
   }
 }
+//?################################## Responsiveness Design #######################################
