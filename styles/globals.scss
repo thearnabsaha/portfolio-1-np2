@@ -228,8 +228,8 @@
 .contact{
   display: flex;
   .left{
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    // align-items: center;
     h1{
       font-size: 6rem;
       width: 70%;
@@ -251,6 +251,50 @@
     margin-right: 3rem;
   }
   .right{
-    
+    p{
+      font-size: 1.5rem;
+      font-weight: 300;
+      width: 70%;
+      span{
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+    }
+    form{
+      display: flex;
+      flex-direction: column;
+      input{
+        border: none;
+        font-size: 1.5rem;
+        border-bottom: 1px solid #000;
+        width: 50%;
+        padding-bottom: 1rem;
+        padding-top: 3rem;
+        outline: none;
+        padding-left: 1rem;
+      }
+      textarea{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        width: 80%;
+        height: 100px;
+      }
+      button{
+        width: 100px;
+        height: 40px;
+        font-size: 2rem;
+        margin-top: 1rem;
+        background-color: $colorPrimary;
+        color: #fff;
+        outline: none;
+        border: none;
+        border-radius: .3rem;
+        &:hover{
+          background-color: $colorPrimary;
+        }
+      }
+    }
   }
 }
