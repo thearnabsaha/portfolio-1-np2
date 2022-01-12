@@ -23,7 +23,11 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="right">
-                    right
+                    <p><span>What’s your story?</span> Get in touch. Always available for freelancing if the right project comes along. me.</p>
+                    <input type="text" placeholder='Name'/>
+                    <input type="text" placeholder='Subject'/>
+                    <input type="email" placeholder='Email'/>
+                    <textarea name="" id="" cols="30" rows="10" placeholder='message'></textarea>
                 </div>
             </div>
         </>
