@@ -298,3 +298,58 @@
   }
 }
 //?################################## Responsiveness Design #######################################
+@media(max-width:990px){
+  .intro{
+    .container{
+      .box{
+        .right{
+          display: none;
+        }
+      }
+    }
+  }
+  .about{
+    .container{
+      .box{
+        .left{
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media(max-width:600px){
+  .p{
+    width: 100%;
+  }
+  .contact{
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+@media(max-width:400px){
+  html{
+    font-size: 50%;
+  }
+  .about{
+    .container{
+      margin: 0;
+      .box{
+        margin: 0;
+      }
+    }
+  }
+  .contact{
+    .right{
+      form{
+        input{
+          width: 100%;
+        }
+        textarea{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
