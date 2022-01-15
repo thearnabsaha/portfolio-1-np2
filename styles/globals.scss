@@ -332,7 +332,23 @@
   html{
     font-size: 50%;
   }
+  .intro{
+    .container{
+      .box{
+        .left{
+          .title{
+            .titleItems{
+              .titleItem{
+                font-size: 3rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   .about{
+    margin-right: 3rem;
     .container{
       margin: 0;
       .box{
