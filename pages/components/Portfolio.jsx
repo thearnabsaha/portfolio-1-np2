@@ -5,7 +5,7 @@ const Portfolio = () => {
         <>
             <div className="portfolio">
                 <div className="container">
-                    <h1>Create & inspire. It's Arnab</h1>
+                    <h1>Create & inspire. Its Arnab</h1>
                     <p>Lama is a creative portfolio that your work has been waiting for. Beautiful homes, stunning portfolio styles & a whole lot more awaits inside.</p>
                     <div className="projects">
                         <div className="project">

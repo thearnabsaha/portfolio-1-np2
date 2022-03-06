@@ -22,7 +22,7 @@ const Contact = () => {
             <div className="contact">
                 <div className="green"></div>
                 <div className="left">
-                    <h1>Let's discuss your project</h1>
+                    <h1>Lets discuss your project</h1>
                     <div className="address">
                         <Image src={phone} height={`30`} width={`30`} objectFit='cover'/>
                         <p>91-6296818891</p>
