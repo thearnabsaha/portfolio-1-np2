@@ -22,7 +22,7 @@ const Intro = () => {
                         </div>
                         <div className="right">
                             <div className="introImg">
-                                <Image src={me} width="800" height="800" objectFit='cover'/>
+                                <Image src={me} width="800" height="800" objectFit='cover' alt='arnabs image'/>
                             </div>
                         </div>
                     </div>
