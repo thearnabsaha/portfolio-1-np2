@@ -216,6 +216,8 @@
 .pImg {
   width: 100%;
   transition: all 10s ease;
+  object-position: top;
+  object-fit: cover;
 }
 
 .p:hover .pImg {
