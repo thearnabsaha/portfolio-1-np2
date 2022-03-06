@@ -40,3 +40,4 @@ export const products = [
         link: "http://lama.dev",
     },
 ];
+export default products;
