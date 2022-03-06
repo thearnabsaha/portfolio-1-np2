@@ -1,4 +1,4 @@
-const products = [
+export const products = [
     {
         id: 1,
         img: "/../public/portimg/6.png",
@@ -40,4 +40,3 @@ const products = [
         link: "http://lama.dev",
     },
 ];
-export default products;

@@ -1,4 +1,4 @@
-import {products}  from '../data';
+import {products}  from '../../public/data';
 import Project from './Project';
 const Portfolio = () => {
     return (
