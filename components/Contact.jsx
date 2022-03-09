@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import phone from '../../public/img/phone.png';
-import email from '../../public/img/email.png';
-import address from '../../public/img/address.png';
+import phone from '../public/img/phone.png';
+import email from '../public/img/email.png';
+import address from '../public/img/address.png';
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
 const Contact = () => {

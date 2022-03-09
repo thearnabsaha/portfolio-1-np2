@@ -1,4 +1,4 @@
-import me from '../../public/img/mee.png'
+import me from '../public/img/mee.png'
 import Image from 'next/image';
 const Intro = () => {
     return (

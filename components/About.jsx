@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import award from '../../public/img/award.png'
+import award from '../public/img/award.png'
 const About = () => {
     return (
         <>

@@ -1,9 +1,11 @@
 import Head from 'next/head';
-import About from './components/About';
-import Contact from './components/Contact';
-import Intro from './components/Intro'
-import Portfolio from './components/Portfolio';
-const index = () => {
+import About from '../components/About';
+import Contact from '../components/Contact';
+import Intro from '../components/Intro'
+import Portfolio from '../components/Portfolio';
+import {products}  from "../data";
+
+const index = ({users}) => {
   return (
     <>
       <Head>
@@ -11,10 +13,19 @@ const index = () => {
       </Head>
       <Intro/>
       <About/>
-      <Portfolio/>
+      <Portfolio users={users}/>
       <Contact/>
     </>
   );
 }
 
 export default index;
+
+export async function getStaticProps() {
+  console.log(products);
+  return {
+      props: {
+          users:products,
+      },
+  }
+}

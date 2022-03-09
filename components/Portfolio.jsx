@@ -1,6 +1,6 @@
-import {products}  from '../../public/data';
+import {products}  from "../data";
 import Project from './Project';
-const Portfolio = () => {
+const Portfolio = ({users}) => {
     return (
         <>
             <div className="portfolio">
@@ -10,7 +10,7 @@ const Portfolio = () => {
                     <div className="projects">
                         <div className="project">
                             {
-                                products.map((e)=>{
+                                users.map((e)=>{
                                     return(
                                         <Project key={e.id} img={e.img} link={e.link}/>
                                     )

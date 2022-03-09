@@ -9,7 +9,7 @@ const Project = ({img,link}) => {
                     <div className="pCircle c2"></div>
                     <div className="pCircle c3"></div>
                 </div>
-                <Link href={link} target="_blank">
+                <Link href={link} target="_blank" passHref>
                     <Image src={img} alt="" className='pImg' width="400" height="400"/>
                 </Link>
             </div>
