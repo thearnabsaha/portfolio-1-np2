@@ -8,7 +8,7 @@ const Contact = () => {
     const form = useRef();
     const [done, setDone] = useState(false)
     const handleSubmit =(e) => {
-        e.preventDefault();
+        // e.preventDefault();
         emailjs.sendForm('service_qrac7ua', 'template_r6sex1o', form.current, 'user_SvxI195VxTx62CejHs17q')
         .then((result) => {
             console.log(result.text);
@@ -16,6 +16,11 @@ const Contact = () => {
         }, (error) => {
             console.log(error.text);
         });
+        if(user_name&&user_subject&&user_email&&message){
+            user_email=""
+        }else{
+            alert("fill all the forms")
+        }
     }
     return (
         <>

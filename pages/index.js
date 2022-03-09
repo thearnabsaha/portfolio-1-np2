@@ -22,7 +22,6 @@ const index = ({users}) => {
 export default index;
 
 export async function getStaticProps() {
-  console.log(products);
   return {
       props: {
           users:products,
